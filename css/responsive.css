@@ -1,0 +1,428 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+  .header_top {
+    padding: 35px 70px;
+  }
+  .banner_text h1 {
+    font-size: 61px;
+  }
+  .get_btn {
+    max-width: 184px;
+  }
+  .body_img::before {
+    left: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header_top {
+    padding: 35px 70px;
+  }
+  .get_btn {
+    max-width: 141px;
+  }
+  .banner_text h1 {
+    font-size: 48px;
+    line-height: 66px;
+  }
+  .banner_text {
+    margin-top: 45%;
+  }
+  .growyhing .titlepage h2 {
+    font-size: 45px;
+    line-height: 74px;
+  }
+  .body_img::before {
+    left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header_top {
+    padding: 35px 70px;
+  }
+  .banner_text {
+    margin-top: 45%;
+  }
+  .bann_img {
+    margin-top: 10vh;
+    height: 300px;
+  }
+  .banner_text h1 {
+    font-size: 34px;
+    line-height: 52px;
+  }
+  .get_btn {
+    max-width: 105px;
+    font-size: 12px;
+    padding: 8px 0;
+    margin-right: 2px;
+    height: 42px;
+  }
+  .growyhing .titlepage h2 {
+    font-size: 38px;
+    line-height: 59px;
+    margin-bottom: 26px;
+  }
+  .relative2 span {
+    padding-left: 1px;
+  }
+  .variat {
+    padding-right: 0;
+  }
+  .body_img::before {
+    left: 0;
+  }
+  .logo a img {
+    margin-left: 1rem;
+  }
+  .banner_text h2 {
+    font-size: 29px;
+  }
+  .details-text h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .details-text span {
+    font-size: 24px;
+  }
+  .details-text p {
+    font-size: 21px;
+  }
+  .about_img figure img {
+    width: 100%;
+  }
+  .about .titlepage h1 {
+    font-size: 32px;
+  }
+  .about .titlepage {
+    margin-top: 0;
+    max-width: 100%;
+  }
+
+  .about .titlepage p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .about_img figure {
+    margin: -10vh;
+  }
+  .chery .titlepage h1 {
+    font-size: 32px;
+  }
+  .chery .titlepage h1 span {
+    font-size: 21px;
+  }
+  .chery .titlepage {
+	max-width: 100%;	
+}
+  .chery .titlepage p {
+    font-size: 16px;
+  }
+  .container4 .bottom img {
+    width: 27%;
+  }
+  .testimonial .titlepage h1 {
+    font-size: 32px;
+  }
+  #testimo .carousel-control-prev,
+  #testimo .carousel-control-next {
+    width: 20px;
+    height: 20px;
+  }
+  .contact .title h1 {
+    font-size: 32px;
+  }
+  .copyright p {
+    font-size: 18px;
+  }
+  .d_flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu_sid .closebtn {
+    right: 145px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .logo a img {
+    margin-left: 0.5rem;
+  }
+  .banner_text {
+    margin-top: 20%;
+    float: left;
+    margin-bottom: 0;
+  }
+
+  .header_top {
+    padding: 35px 70px;
+  }
+  .bann_img {
+    height: 460px;
+    padding-left: 15vh;
+  }
+  .details12 img {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .details-text h1 {
+	font-size: 32px;
+    line-height: 30px;
+}
+.details-text p {
+	font-size: 22px;
+	line-height: 32px;
+}
+.details-text span {
+	font-size: 26px;
+}
+.about .titlepage {
+	max-width: 100%;
+    padding: 0 20px;	
+}
+.about .titlepage p {
+    font-size: 18px;
+	line-height: 35px;
+	padding-bottom: 0;
+}
+.about_img figure img {
+	width: 100%;
+}
+figure {
+	margin: -1em 110px;
+}
+.chery .titlepage {
+	max-width: 100%;
+	padding: 2rem;
+}
+.container4 .bottom img {
+	width: 25%;
+}
+.testimonial .titlepage h1 {
+	font-size: 32px;
+}
+#testimo .carousel-control-prev, #testimo .carousel-control-next {
+	width: 20px;
+	height: 20px;
+}
+.contact .title h1 {
+	font-size: 32px;
+}
+.lineId {
+	font-size: 26px;
+}
+.copyright p {
+	font-size: 18px;
+}
+  .variat {
+    padding-right: 0;
+  }
+  .body_img::before {
+    left: 0;
+  }
+  .about_img {
+    margin-top: 30px;
+  }
+  .body_blu_img {
+    max-width: inherit;
+    padding-bottom: 30px;
+  }
+  .growyhing .titlepage h2 {
+    font-size: 54px;
+    line-height: 84px;
+    margin-top: 30px;
+  }
+  ul.conta {
+    display: block !important;
+  }
+  ul.link_menu {
+    margin-bottom: 20px;
+  }
+  .variat {
+    padding-bottom: 20px;
+  }
+  ul.conta li {
+    display: block;
+  }
+  .body_blu_img {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .logo {
+    text-align: center !important;
+    padding-bottom: 6px;
+    float: left;
+  }
+  .header_top {
+    padding: 35px 70px;
+  }
+  .banner_text {
+    margin-top: 62%;
+    margin-bottom: 0;
+  }
+  .bann_img {
+    height: 240px;
+    padding-left: 62px;
+  }
+  .banner_text h1 {
+    font-size: 31px;
+    line-height: 44px;
+  }
+  .get_btn {
+    max-width: 107px;
+    font-size: 12px;
+    padding: 8px 0;
+    height: 40px;
+    margin-right: 0px;
+  }
+  .body_img::before {
+    left: 0;
+  }
+  .titlepage h2 {
+    font-size: 29px;
+  }
+  .growyhing .titlepage h2 {
+    font-size: 27px;
+    line-height: 39px;
+    margin-top: 30px;
+    margin-bottom: 26px;
+  }
+  .body_blu_img {
+    margin-bottom: 30px;
+  }
+  .about_img {
+    margin-top: 30px;
+  }
+  .relative2 span {
+    padding-left: 0px;
+  }
+  .relative2 {
+    padding: 0px 4px 0px 70px;
+  }
+  ul.link_menu {
+    margin-bottom: 20px;
+  }
+  ul.conta,
+  ul.conta li {
+    display: block !important;
+  }
+  .variat {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width:428px) {
+    .logo a img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .banner_text {
+        margin-top: 40%;
+    }
+    .banner_text h2 {
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 2rem;
+    }
+    #details {
+        margin: 2rem .5rem;
+    }
+    .details-text {
+        margin-top: 2rem;
+    }
+    .details12 img {
+        width: 100%;
+    }
+    .details-text h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .details-text span {
+        font-size: 20px;
+    }
+    .details-text p {
+        font-size: 18px;
+    }
+    .about {
+        margin: 2rem 1rem;
+    }
+    .about .titlepage h1 {
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+    .about .titlepage p {
+        font-size: 15px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+    .about_img {
+        margin-top: 0;
+    }
+    .about_img figure img {
+        width: 100%;
+    }
+    .chery {
+        margin: 2rem 1rem;
+    }
+    .chery .titlepage h1 {
+        font-size: 28px;
+    }
+    .chery .titlepage h1 span {
+        font-size: 20px;
+    }
+    .chery .titlepage p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .container4 {
+        width: 100%; 
+    }
+    .container4 .bottom img {
+        width: 31%;
+    }
+    .growyhing {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+    .testimonial .titlepage h1 {
+        font-size: 28px;
+    }
+    #testimo .carousel-control-prev, #testimo .carousel-control-next {
+        width: 15px;
+        height: 15px;
+    }
+    .contact .title h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .contact-img img {
+        width: 100%;
+    }
+    .lineId {
+        font-size: 26px;
+    }
+    .copyright p {
+        font-size: 14px;
+    }
+
+}
+@media (max-width:320px) {
+  .chery .titlepage h1 {
+    font-size: 26px;
+  }
+  .container4 .bottom img {
+    width: 47%;
+  }
+  .lineId {
+    font-size: 17px;
+  }
+  .copyright p {
+    font-size: 12px;
+  }
+}
